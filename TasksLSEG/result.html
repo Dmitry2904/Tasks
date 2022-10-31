@@ -1,0 +1,537 @@
+<table class="table report_table">
+        	<!-- 
+        	<caption>
+	            <span tal:condition="python: 0 == int(data_version)" i18n:translate="page_report_05_table" tal:omit-tag="">Daily Settlement of Imbalances (version 0)</span>
+	            <span tal:condition="python: 1 == int(data_version)" i18n:translate="page_report_09_table" tal:omit-tag="">Monthly Settlement of Imbalances (version 1)</span>
+	            <span tal:condition="python: 2 == int(data_version)" i18n:translate="page_report_12_table" tal:omit-tag="">Final Monthly Settlement of Imbalances (version 2)</span>
+	            &nbsp;-&nbsp;
+	            <span tal:omit-tag="" tal:content="python:format_utility.format_date(report_date)"></span>
+          	</caption>
+          	 -->
+          	<thead>
+            	<tr>
+	                <th>Hour</th>
+	                
+	                <th>System imbalance (MWh)</th>
+	                <th>Absolute imbalance sum (MWh)</th>
+	                <th>Positive imbalance (MWh)</th>
+	                <th>Negative imbalance (MWh)</th>
+	                <th>Rounded imbalance (MWh)</th>
+	                <th>Cost of RE (CZK)</th>
+	                <th>Cost of imbalance (CZK)</th>
+	                <th>Settlement price - imbalance (CZK/MWh)</th>
+	                <th>Settlement price - counter-imbalance (CZK/MWh)</th>
+              		<th>Price according to protective RE component (CZK/MWh)</th>
+              		<th>Price according to RE component (CZK/MWh)</th>
+              		<th>Price according to IM component (CZK/MWh)</th>
+              		<th>Price according to SO component (CZK/MWh)</th>              	
+              	</tr>
+          	</thead>
+          	<tbody>
+            	<tr>
+                	<th>1</th>
+                	
+                  	
+                  	<td>-9,534 </td>
+	                  <td>240,950 </td>
+	                  <td>115,708 </td>
+	                  <td>-125,242 </td>
+	                  <td>-0,105 </td>
+	                  <td>129 486,02 </td>
+	                  <td>-285 681,67 </td>
+	                  <td>6 061,60 </td>
+	                  <td>4 092,07 </td>
+	                  <td>4 814,45 </td>                                                               
+                      <td>6 061,60 </td>                      
+	                  <td>2 720,47 </td>                      
+	                  <td>5 075,94 </td>
+                      
+                      
+                
+              	</tr>
+             <tr>
+                	<th>2</th>
+                	
+                  	
+                  	<td>33,818 </td>
+	                  <td>175,362 </td>
+	                  <td>104,590 </td>
+	                  <td>-70,772 </td>
+	                  <td>-0,078 </td>
+	                  <td>242 114,68 </td>
+	                  <td>-133 995,45 </td>
+	                  <td>0,00 </td>
+	                  <td>1 893,34 </td>
+	                  <td>-1 033,74 </td>                                                               
+                      <td>0,00 </td>                      
+	                  <td>2 487,48 </td>                      
+	                  <td>1 068,44 </td>
+                      
+                      
+                
+              	</tr>
+             <tr>
+                	<th>3</th>
+                	
+                  	
+                  	<td>4,287 </td>
+	                  <td>213,927 </td>
+	                  <td>109,107 </td>
+	                  <td>-104,820 </td>
+	                  <td>-0,093 </td>
+	                  <td>33 237,37 </td>
+	                  <td>-125 595,20 </td>
+	                  <td>-65,50 </td>
+	                  <td>1 130,02 </td>
+	                  <td>780,99 </td>                                                               
+                      <td>-65,50 </td>                      
+	                  <td>2 046,55 </td>                      
+	                  <td>586,00 </td>
+                      
+                      
+                
+              	</tr>
+             <tr>
+                	<th>4</th>
+                	
+                  	
+                  	<td>36,281 </td>
+	                  <td>208,525 </td>
+	                  <td>122,403 </td>
+	                  <td>-86,122 </td>
+	                  <td>-0,109 </td>
+	                  <td>-48 964,80 </td>
+	                  <td>-121 714,50 </td>
+	                  <td>0,00 </td>
+	                  <td>1 413,28 </td>
+	                  <td>1 394,40 </td>                                                               
+                      <td>0,00 </td>                      
+	                  <td>2 012,35 </td>                      
+	                  <td>981,82 </td>
+                      
+                      
+                
+              	</tr>
+             <tr>
+                	<th>5</th>
+                	
+                  	
+                  	<td>44,281 </td>
+	                  <td>160,299 </td>
+	                  <td>102,290 </td>
+	                  <td>-58,009 </td>
+	                  <td>-0,099 </td>
+	                  <td>-80 659,60 </td>
+	                  <td>-111 497,93 </td>
+	                  <td>0,00 </td>
+	                  <td>1 922,08 </td>
+	                  <td>1 878,56 </td>                                                               
+                      <td>0,00 </td>                      
+	                  <td>2 034,87 </td>                      
+	                  <td>1 149,52 </td>
+                      
+                      
+                
+              	</tr>
+             <tr>
+                	<th>6</th>
+                	
+                  	
+                  	<td>53,715 </td>
+	                  <td>146,735 </td>
+	                  <td>100,225 </td>
+	                  <td>-46,510 </td>
+	                  <td>-0,093 </td>
+	                  <td>-104 967,97 </td>
+	                  <td>30 169,11 </td>
+	                  <td>1 250,50 </td>
+	                  <td>2 046,06 </td>
+	                  <td>1 996,81 </td>                                                               
+                      <td>1 250,50 </td>                      
+	                  <td>2 107,26 </td>                      
+	                  <td>1 637,50 </td>
+                      
+                      
+                
+              	</tr>
+             <tr>
+                	<th>7</th>
+                	
+                  	
+                  	<td>82,751 </td>
+	                  <td>143,167 </td>
+	                  <td>112,959 </td>
+	                  <td>-30,208 </td>
+	                  <td>-0,107 </td>
+	                  <td>-89 960,69 </td>
+	                  <td>-74 746,91 </td>
+	                  <td>-311,22 </td>
+	                  <td>1 310,64 </td>
+	                  <td>1 146,90 </td>                                                               
+                      <td>-21,60 </td>                      
+	                  <td>2 241,30 </td>                      
+	                  <td>-311,23 </td>
+                      
+                      
+                
+              	</tr>
+             <tr>
+                	<th>8</th>
+                	
+                  	
+                  	<td>84,086 </td>
+	                  <td>184,234 </td>
+	                  <td>134,160 </td>
+	                  <td>-50,074 </td>
+	                  <td>-0,085 </td>
+	                  <td>-96 202,28 </td>
+	                  <td>-62 395,70 </td>
+	                  <td>0,00 </td>
+	                  <td>1 246,07 </td>
+	                  <td>1 182,16 </td>                                                               
+                      <td>0,00 </td>                      
+	                  <td>2 668,60 </td>                      
+	                  <td>305,50 </td>
+                      
+                      
+                
+              	</tr>
+             <tr>
+                	<th>9</th>
+                	
+                  	
+                  	<td>50,799 </td>
+	                  <td>236,525 </td>
+	                  <td>143,662 </td>
+	                  <td>-92,863 </td>
+	                  <td>-0,061 </td>
+	                  <td>1 485,97 </td>
+	                  <td>-93 975,79 </td>
+	                  <td>-489,10 </td>
+	                  <td>255,33 </td>
+	                  <td>154,70 </td>                                                               
+                      <td>-489,10 </td>                      
+	                  <td>2 914,12 </td>                      
+	                  <td>-216,60 </td>
+                      
+                      
+                
+              	</tr>
+             <tr>
+                	<th>10</th>
+                	
+                  	
+                  	<td>82,701 </td>
+	                  <td>246,665 </td>
+	                  <td>164,683 </td>
+	                  <td>-81,982 </td>
+	                  <td>-0,070 </td>
+	                  <td>-190 760,30 </td>
+	                  <td>-210 602,37 </td>
+	                  <td>-115,80 </td>
+	                  <td>2 336,27 </td>
+	                  <td>2 321,38 </td>                                                               
+                      <td>-115,80 </td>                      
+	                  <td>2 613,39 </td>                      
+	                  <td>1 674,65 </td>
+                      
+                      
+                
+              	</tr>
+             <tr>
+                	<th>11</th>
+                	
+                  	
+                  	<td>154,869 </td>
+	                  <td>307,703 </td>
+	                  <td>231,286 </td>
+	                  <td>-76,417 </td>
+	                  <td>-0,062 </td>
+	                  <td>529 082,34 </td>
+	                  <td>-1 139 851,48 </td>
+	                  <td>-6 057,14 </td>
+	                  <td>-3 416,52 </td>
+	                  <td>-3 416,39 </td>                                                               
+                      <td>-5 515,10 </td>                      
+	                  <td>2 146,88 </td>                      
+	                  <td>-6 057,14 </td>
+                      
+                      
+                
+              	</tr>
+             <tr>
+                	<th>12</th>
+                	
+                  	
+                  	<td>11,387 </td>
+	                  <td>320,515 </td>
+	                  <td>165,951 </td>
+	                  <td>-154,564 </td>
+	                  <td>-0,072 </td>
+	                  <td>1 543 692,04 </td>
+	                  <td>-173 877,77 </td>
+	                  <td>-6 069,85 </td>
+	                  <td>-5 392,07 </td>
+	                  <td>-14 324,18 </td>                                                               
+                      <td>-6 030,00 </td>                      
+	                  <td>1 924,29 </td>                      
+	                  <td>-6 069,85 </td>
+                      
+                      
+                
+              	</tr>
+             <tr>
+                	<th>13</th>
+                	
+                  	
+                  	<td>14,067 </td>
+	                  <td>248,679 </td>
+	                  <td>131,373 </td>
+	                  <td>-117,306 </td>
+	                  <td>-0,098 </td>
+	                  <td>24 048,19 </td>
+	                  <td>-217 378,57 </td>
+	                  <td>0,00 </td>
+	                  <td>1 853,09 </td>
+	                  <td>1 471,61 </td>                                                               
+                      <td>0,00 </td>                      
+	                  <td>2 472,44 </td>                      
+	                  <td>417,87 </td>
+                      
+                      
+                
+              	</tr>
+             <tr>
+                	<th>14</th>
+                	
+                  	
+                  	<td>-4,846 </td>
+	                  <td>311,678 </td>
+	                  <td>153,416 </td>
+	                  <td>-158,262 </td>
+	                  <td>-0,061 </td>
+	                  <td>534 315,83 </td>
+	                  <td>-452 878,91 </td>
+	                  <td>8 333,30 </td>
+	                  <td>5 644,56 </td>
+	                  <td>8 847,87 </td>                                                               
+                      <td>8 333,30 </td>                      
+	                  <td>2 514,76 </td>                      
+	                  <td>7 321,65 </td>
+                      
+                      
+                
+              	</tr>
+             <tr>
+                	<th>15</th>
+                	
+                  	
+                  	<td>11,735 </td>
+	                  <td>259,963 </td>
+	                  <td>135,849 </td>
+	                  <td>-124,114 </td>
+	                  <td>-0,072 </td>
+	                  <td>79 883,44 </td>
+	                  <td>-453 273,33 </td>
+	                  <td>-1 254,07 </td>
+	                  <td>2 279,43 </td>
+	                  <td>1 494,50 </td>                                                               
+                      <td>-1 213,00 </td>                      
+	                  <td>2 437,99 </td>                      
+	                  <td>-1 254,07 </td>
+                      
+                      
+                
+              	</tr>
+             <tr>
+                	<th>16</th>
+                	
+                  	
+                  	<td>60,833 </td>
+	                  <td>153,301 </td>
+	                  <td>107,067 </td>
+	                  <td>-46,234 </td>
+	                  <td>-0,071 </td>
+	                  <td>-58 264,94 </td>
+	                  <td>-117 908,72 </td>
+	                  <td>0,00 </td>
+	                  <td>2 550,26 </td>
+	                  <td>1 645,45 </td>                                                               
+                      <td>0,00 </td>                      
+	                  <td>3 317,51 </td>                      
+	                  <td>1 802,48 </td>
+                      
+                      
+                
+              	</tr>
+             <tr>
+                	<th>17</th>
+                	
+                  	
+                  	<td>67,162 </td>
+	                  <td>202,060 </td>
+	                  <td>134,611 </td>
+	                  <td>-67,449 </td>
+	                  <td>-0,088 </td>
+	                  <td>-209 358,79 </td>
+	                  <td>-224 748,83 </td>
+	                  <td>0,00 </td>
+	                  <td>3 332,13 </td>
+	                  <td>3 224,90 </td>                                                               
+                      <td>0,00 </td>                      
+	                  <td>2 597,62 </td>                      
+	                  <td>2 443,33 </td>
+                      
+                      
+                
+              	</tr>
+             <tr>
+                	<th>18</th>
+                	
+                  	
+                  	<td>13,791 </td>
+	                  <td>229,023 </td>
+	                  <td>121,407 </td>
+	                  <td>-107,616 </td>
+	                  <td>-0,063 </td>
+	                  <td>322 476,98 </td>
+	                  <td>-227 713,30 </td>
+	                  <td>0,00 </td>
+	                  <td>2 115,98 </td>
+	                  <td>-780,55 </td>                                                               
+                      <td>0,00 </td>                      
+	                  <td>3 005,31 </td>                      
+	                  <td>1 714,93 </td>
+                      
+                      
+                
+              	</tr>
+             <tr>
+                	<th>19</th>
+                	
+                  	
+                  	<td>-76,739 </td>
+	                  <td>191,569 </td>
+	                  <td>57,415 </td>
+	                  <td>-134,154 </td>
+	                  <td>-0,081 </td>
+	                  <td>515 035,87 </td>
+	                  <td>-973 111,85 </td>
+	                  <td>9 811,80 </td>
+	                  <td>5 977,19 </td>
+	                  <td>6 397,25 </td>                                                               
+                      <td>9 811,80 </td>                      
+	                  <td>3 649,12 </td>                      
+	                  <td>8 226,56 </td>
+                      
+                      
+                
+              	</tr>
+             <tr>
+                	<th>20</th>
+                	
+                  	
+                  	<td>38,287 </td>
+	                  <td>133,065 </td>
+	                  <td>85,676 </td>
+	                  <td>-47,389 </td>
+	                  <td>-0,062 </td>
+	                  <td>-9 538,31 </td>
+	                  <td>-168 066,33 </td>
+	                  <td>-1 666,60 </td>
+	                  <td>533,43 </td>
+	                  <td>406,38 </td>                                                               
+                      <td>-1 666,60 </td>                      
+	                  <td>3 238,15 </td>                      
+	                  <td>1,90 </td>
+                      
+                      
+                
+              	</tr>
+             <tr>
+                	<th>21</th>
+                	
+                  	
+                  	<td>-15,717 </td>
+	                  <td>139,533 </td>
+	                  <td>61,908 </td>
+	                  <td>-77,625 </td>
+	                  <td>-0,081 </td>
+	                  <td>2 709 451,24 </td>
+	                  <td>-2 709 450,74 </td>
+	                  <td>51 340,71 </td>
+	                  <td>20 609,16 </td>
+	                  <td>51 340,72 </td>                                                               
+                      <td>30 538,10 </td>                      
+	                  <td>3 860,18 </td>                      
+	                  <td>30 624,54 </td>
+                      
+                      
+                
+              	</tr>
+             <tr>
+                	<th>22</th>
+                	
+                  	
+                  	<td>-47,741 </td>
+	                  <td>148,369 </td>
+	                  <td>50,314 </td>
+	                  <td>-98,055 </td>
+	                  <td>-0,082 </td>
+	                  <td>272 650,57 </td>
+	                  <td>-1 640 080,83 </td>
+	                  <td>19 100,00 </td>
+	                  <td>4 626,34 </td>
+	                  <td>5 154,46 </td>                                                               
+                      <td>19 100,00 </td>                      
+	                  <td>2 878,75 </td>                      
+	                  <td>4 983,88 </td>
+                      
+                      
+                
+              	</tr>
+             <tr>
+                	<th>23</th>
+                	
+                  	
+                  	<td>-42,959 </td>
+	                  <td>109,413 </td>
+	                  <td>33,227 </td>
+	                  <td>-76,186 </td>
+	                  <td>-0,055 </td>
+	                  <td>188 735,91 </td>
+	                  <td>-476 835,52 </td>
+	                  <td>8 026,70 </td>
+	                  <td>4 053,53 </td>
+	                  <td>4 245,17 </td>                                                               
+                      <td>8 026,70 </td>                      
+	                  <td>2 732,81 </td>                      
+	                  <td>5 977,07 </td>
+                      
+                      
+                
+              	</tr>
+             <tr>
+                	<th>24</th>
+                	
+                  	
+                  	<td>-9,733 </td>
+	                  <td>133,841 </td>
+	                  <td>62,054 </td>
+	                  <td>-71,787 </td>
+	                  <td>-0,121 </td>
+	                  <td>274 289,59 </td>
+	                  <td>-366 574,50 </td>
+	                  <td>9 995,50 </td>
+	                  <td>5 655,92 </td>
+	                  <td>8 709,96 </td>                                                               
+                      <td>9 995,50 </td>                      
+	                  <td>2 745,26 </td>                      
+	                  <td>7 007,83 </td>
+                      
+                      
+                
+              	</tr>
+              	
+          	</tbody>
+      	</table>
