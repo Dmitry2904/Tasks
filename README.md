@@ -10,8 +10,8 @@ There are a total of 5 tasks here. Tasks 1-4 should be done in Java. Answers sho
    https://www.ote-cr.cz/en/statistics/electricity-imbalances and store it as a HTML file.
 
 
-2. Write an application that downloads xls file from https://www.ote-
-   cr.cz/en/statistics/electricity-imbalances (bottom of the page – file Imbalances) and prints
+2. Write an application that downloads xls file from https://www.ote-cr.cz/en/statistics/electricity-imbalances 
+(bottom of the page – file Imbalances) and prints
 output to the console. The output should go in the following format:
 **table header (without units);date (with hour);value** 
 <br/>Example:
