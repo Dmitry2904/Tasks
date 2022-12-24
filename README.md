@@ -1,11 +1,5 @@
 # Recruitment Tasks – Junior Java Programmer
 
-There are a total of 5 tasks here. Tasks 1-4 should be done in Java. Answers should be
-  provided in a single .zip archive, in one project supplied with pom file if you use external
-  libraries. As an alternative, you can share a link to GitHub where you have uploaded a
-  project with answers.
-
-
 1. Write an application that downloads only table Statistics Electricity Imbalance from
    https://www.ote-cr.cz/en/statistics/electricity-imbalances and store it as a HTML file.
 
